@@ -11,11 +11,11 @@ for(int j = 0; j < t; j++)
 
     Array.Sort(sticks);
 
-    int cost = (sticks[1] - sticks[0]) + (sticks[2] - sticks[1]);
+    int cost =  sticks[2] - sticks[0];
     for(int i = 1; i + 2 < n; i++)
     {
-        int x = (sticks[i + 1] - sticks[i]) + (sticks[i + 2] - sticks[i + 1]);
-        if(x < cost) cost = x;
+        if(sticks[i + 2] - sticks[i] < cost)
+            cost = sticks[i + 2] - sticks[i];
     }
 
     Console.WriteLine(cost);
