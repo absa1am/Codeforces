@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem-1742A", "Problem-17
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem-1734A", "Problem-1734A\Problem-1734A.csproj", "{931BB29C-7D61-4B16-A1CD-795B777A31C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem-1736A", "Problem-1736A\Problem-1736A.csproj", "{B03B0D07-D2FF-492A-A527-BB6DC3A0469B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem-1754A", "Problem-1754A\Problem-1754A.csproj", "{0E86FAE9-E3F1-446F-B3AF-BE0B310CD47C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{931BB29C-7D61-4B16-A1CD-795B777A31C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{931BB29C-7D61-4B16-A1CD-795B777A31C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{931BB29C-7D61-4B16-A1CD-795B777A31C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B03B0D07-D2FF-492A-A527-BB6DC3A0469B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03B0D07-D2FF-492A-A527-BB6DC3A0469B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03B0D07-D2FF-492A-A527-BB6DC3A0469B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03B0D07-D2FF-492A-A527-BB6DC3A0469B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E86FAE9-E3F1-446F-B3AF-BE0B310CD47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E86FAE9-E3F1-446F-B3AF-BE0B310CD47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E86FAE9-E3F1-446F-B3AF-BE0B310CD47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E86FAE9-E3F1-446F-B3AF-BE0B310CD47C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
