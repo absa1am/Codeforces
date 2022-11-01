@@ -1,16 +1,16 @@
-﻿int.TryParse(Console.ReadLine(), out int t);
+﻿int t = int.Parse(Console.ReadLine());
 
 for(int j = 0; j < t; j++)
 {
-    int.TryParse(Console.ReadLine(), out int n);
+    int n = int.Parse(Console.ReadLine());
     string message = Console.ReadLine();
 
-    Stack<char> s = new Stack<char>();
+    int count = 0;
     for(int i = 0; i < n; i++)
     {
-        if(message[i] == 'Q') s.Push(message[i]);
-        else s.TryPop(out char c);
+        if(message[i] == 'Q') count++;
+        else if(count > 0) count--;
     }
 
-    Console.WriteLine(s.Count == 0? "Yes":"No");
+    Console.WriteLine(count == 0? "Yes":"No");
 }
