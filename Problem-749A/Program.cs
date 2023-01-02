@@ -7,22 +7,16 @@ if(n % 2 == 0)
     Console.WriteLine(ans);
     for(int i = 0; i < ans; i++)
         Console.Write(2 + " ");
+    
+    Console.WriteLine();
 }
 else
 {
-    List<int> answer = new List<int>();
+    int ans = (n - 3) / 2;
 
-    while(n > 3)
-    {
-        n = n - 2;
-        answer.Add(2);
-    }
-
-    answer.Add(3);
-
-    Console.WriteLine(answer.Count);
-    for(int i = 0; i < answer.Count; i++)
-        Console.Write(answer[i] + " ");
+    Console.WriteLine(ans + 1);
+    for(int i = 0; i < ans; i++)
+        Console.Write(2 + " ");
+    
+    Console.WriteLine(3);
 }
-
-Console.WriteLine();
